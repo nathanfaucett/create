@@ -1,7 +1,4 @@
-var nativeCreate = Object.create;
-
-
-module.exports = nativeCreate || (function() {
+module.exports = Object.create || (function() {
     function F() {}
     return function create(object) {
         F.prototype = object;
