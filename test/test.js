@@ -1,9 +1,12 @@
 var assert = require("assert"),
-    create = require("../src/index");
+    create;
 
 
 describe("create(object)", function() {
     it("should create object whose prototype is the passed object", function() {
+        Object.create = null;
+        create = require("../src/index");
+
         var object = {
             test: "test"
         };
