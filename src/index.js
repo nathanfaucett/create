@@ -1,7 +1,10 @@
+var isNative = require("is_native");
+
+
 var create, F;
 
 
-if (Object.create) {
+if (isNative(Object.create)) {
     create = Object.create;
 } else {
     F = function F() {};
