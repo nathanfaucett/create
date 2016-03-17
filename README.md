@@ -1,4 +1,4 @@
-create
+create [![Build Status](https://travis-ci.org/nathanfaucett/create.svg?branch=master)](https://travis-ci.org/nathanfaucett/create)
 =======
 
-Object.create for the browser and node.js
+create for the browser and node.js
