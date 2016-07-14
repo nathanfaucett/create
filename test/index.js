@@ -1,5 +1,5 @@
 var tape = require("tape"),
-    getPrototypeOf = require("get_prototype_of"),
+    getPrototypeOf = require("@nathanfaucett/get_prototype_of"),
     create = require("../src/index");
 
 

@@ -1,6 +1,6 @@
-var isNull = require("is_null"),
-    isNative = require("is_native"),
-    isPrimitive = require("is_primitive");
+var isNull = require("@nathanfaucett/is_null"),
+    isNative = require("@nathanfaucett/is_native"),
+    isPrimitive = require("@nathanfaucett/is_primitive");
 
 
 var nativeCreate = Object.create;
