@@ -33,6 +33,3 @@ if (!isNative(nativeCreate)) {
         }
     };
 }
-
-
-module.exports = create;
